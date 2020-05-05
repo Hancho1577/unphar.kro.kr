@@ -32,6 +32,17 @@
       position: relative;
     }
 
+    .ebox {
+      position: absolute;
+      padding: 20px;
+      font-family: 'Noto Sans KR', sans-serif;
+      font-size: 23px;
+      color: #f1f5f8;
+      top: 92%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
     .box_s {
 
       font-family: 'Noto Sans KR', sans-serif;
@@ -223,6 +234,6 @@ echo('<p class="text_light">'.$strings[1].'</p>');
   <div class="container">
   </div>
   <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-  echo '<script type="text/javascript" src="https://ccc1.kro.kr/js/bootstrap.js"></script>';
+  <script type="text/javascript" src="https://ccc1.kro.kr/js/bootstrap.js"></script>
 </body>
 </html>
